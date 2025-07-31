@@ -9,7 +9,7 @@ schemas:
   # Children of the top most schema do not need to contain identifier and just 
   # require a 'pattern' to be set to match the hierarchy of notes.
   children:
-    - pattern: notes
+    - pattern: journal
       children:
           # This pattern matches the YYYY (year) child hierarchy
         - pattern: "[0-2][0-9][0-9][0-9]"
